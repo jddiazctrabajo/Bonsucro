@@ -1,1 +1,37 @@
+# Python
+__pycache__/
+*.pyc
 
+# Entornos virtuales
+.venv/
+venv/
+
+# Streamlit
+.streamlit/
+
+# Configuración local
+config/config.json
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Datos
+data/entrada/*
+data/procesados/*
+data/salida/*
+data/temporal/*
+
+# Mantener carpetas vacías
+!data/entrada/.gitkeep
+!data/procesados/.gitkeep
+!data/salida/.gitkeep
+!data/temporal/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
