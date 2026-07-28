@@ -1,1 +1,8 @@
-
+streamlit
+pandas
+openpyxl
+xlrd
+xlsxwriter
+numpy
+python-dateutil
+watchdog
